@@ -120,6 +120,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="ICanAttack.cpp" />
+    <ClCompile Include="ICantAttack.cpp" />
     <ClCompile Include="Mage.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Unit.cpp" />
@@ -127,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Archer.h" />
+    <ClInclude Include="IAttack.h" />
+    <ClInclude Include="ICanAttack.h" />
+    <ClInclude Include="ICantAttack.h" />
     <ClInclude Include="Mage.h" />
     <ClInclude Include="Unit.h" />
     <ClInclude Include="Warrior.h" />

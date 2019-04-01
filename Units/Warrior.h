@@ -6,5 +6,6 @@ class Warrior :
 public:
 	Warrior();
 	~Warrior();
+	
 };
 

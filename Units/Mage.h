@@ -6,6 +6,5 @@ class Mage :
 public:
 	Mage();
 	~Mage();
-	void buff();
 };
 

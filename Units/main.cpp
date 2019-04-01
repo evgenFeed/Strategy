@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <string>
 #include "Unit.h"
 #include "Warrior.h"
 #include "Archer.h"
@@ -12,7 +13,11 @@ int main()
 	units.push_back(new Archer());
 	units.push_back(new Mage());
 	
-
+	for (auto u : units)
+	{
+		std::cout << u->getName();
+		u->Attack();
+	}
 
 	return 0;
 }
