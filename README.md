@@ -1,0 +1,1 @@
+Simple realisation [Strategy pattern]
